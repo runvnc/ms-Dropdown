@@ -418,7 +418,7 @@ export default class ddMaker {
 
                     $this._isMouseDown = false;
                     if(!isCheckbox || evt.target.nodeName !== "INPUT") {
-                        if(!$this._isList) {
+                        if(false && !$this._isList) {
                             $this.close(evt);
                         }
                     }
