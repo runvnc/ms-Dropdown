@@ -438,6 +438,7 @@ export default class ddMaker {
                             $this._setSelectedByItem(li, false, false);
                         } else {
                             //normal click
+                            isCheckbox = true
                             $this._setSelectedByItemToggle(li._refCheckbox, li);
                         }
                     } else {
